@@ -1,0 +1,59 @@
+
+
+/*
+
+	display: inline-block;
+	width: 65%
+	vertical-align: top;
+
+}
+aside{
+	background-color rgb (255, 255, 255); 
+	display: inline-block;
+	width: 28%
+}
+
+
+*/
+/*Menu*/
+
+
+
+.menu li{
+	display: inline-block;
+}
+	li a, btnDesplegable{
+	display: inline-block;
+	color: Nige;
+	padding: 0.9em 1em;
+	text-align: center;
+}
+
+
+.contenidoDesplegable{
+	display: none;
+	position: absolute;
+	background-color: cornsilk;
+	min-width: 8em;
+}
+
+.contenidoDesplegable a{
+color: black;
+padding; 0.9em 1em;
+display: block;
+text-align:left;
+
+
+
+}
+.contenidoDesplegable a:hover{
+	background-color: darkcyan;
+}
+.desplegable:hover .contenidoDesplegable{
+	display: block;
+}
+li a:hover{
+}
+
+
+

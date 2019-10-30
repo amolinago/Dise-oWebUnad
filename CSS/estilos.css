@@ -1,0 +1,145 @@
+
+
+
+html,body {
+    height:100%;
+}
+
+.contenedor, .principal
+{
+
+		max-width: 80%;
+	margin: auto;
+	text-align: center;
+	border-raidus: 0.8em;
+}
+
+
+
+header {
+        
+         float: left; 
+    display:block;
+    background: rgb(218, 238, 243);
+    padding:0.2px 0px;
+	text-align: center;
+
+}
+
+
+section {
+    width: 80%;
+    background: rgb(218, 238, 243);
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+    text-align: center;
+
+}
+
+
+nav{
+text-align: center;
+ display:block;
+ 
+    padding:1px 0px;/*cexpande*/
+
+
+background: #286af0;
+
+
+ color: #fff;/*color blanco*/
+
+}
+
+
+
+aside {
+    float: right; /*cLo lleva a la izquierda*/
+
+        border: 0.05px solid white; /*coloca borde*/
+
+    width: 19.8%; /*me dice el ancho*/
+
+	
+	height: 129%;
+	text-align: center;
+	    overflow: auto;
+
+	background:rgb(218, 238, 243);
+
+
+
+
+
+
+}
+	
+/*Menu*/
+
+
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 40px; 
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;/*color blanco*/
+}
+
+
+figure {
+    display: table; margin: 0 auto;
+}
+
+
+
+
+.menu li{
+	display: inline-block;
+}
+
+
+	li a, btnDesplegable{
+	display: inline-block;
+ color: #fff;/*color blanco*/
+	padding: 0.9em 1em;
+	text-align: center;
+
+}
+
+
+.contenidoDesplegable{
+	display: none;
+	position: absolute;
+	background-color: rgb(0, 176, 240);
+	min-width: 8em;
+
+}
+
+.contenidoDesplegable a{
+background: #286af0;
+padding; 0.9em 1em;
+display: block;/*DESPLEGABLE HACIA ABAJO*/
+text-align:left;
+color: #fff;/*color blanco*/
+
+}
+
+.contenidoDesplegable a:hover{
+	background-color: darkcyan;
+}
+
+.desplegable:hover .contenidoDesplegable{
+	display: block;
+}
+
+li a:hover{
+background-color: rgb(0, 176, 240);
+
+}
+
+
