@@ -1,162 +1,115 @@
-
 <!-- ESCRIBIR MENSAJES-->
-
-
+<!-- EJEMPLO MODIFICACION-->
 <!DOCTYPE html>
 
 <!-- LENGUAJE ESPAÑOL-->
 <html lang="es">
-            											<head>
+<head>
 
-		<!-- ETIQUETA META DATOS-->
-                           	<meta charsef="UFT-8">
+<!-- ETIQUETA META DATOS-->
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 
+	<title>DISENO SITIOS WEB</title>
 
-<title>OSCAR DISEÑO SITIOS WEB</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/estilos.css">
 
+	<style type="text/css">
+		nav{
+			background: rgb(120, 140, 253);
+		}
+	</style>
+</head>
+<body>
 
-<link rel="stylesheet" href="CSS/estilos.css">
+<header><!-- PERMITIO MOVER IMAGEN EN EL ENCABEZADO-->
+	<figure>
+		<img src="IMG/Logo.png" width="150" height="127.2" alt="logo" class="logo" />
+	<!-- figcaption>Tomado de: </figcaption>      -->
+	</figure>	
+</header>
 
-<style type="text/css">
-nav{
-background: #286af0;
-}
-</style>
-																</head>
-				
-
-
-
-				<body>
-
-					<header><!-- PERMITIO MOVER IMAGEN EN EL ENCABEZADO-->
-
-<figure>
-<img src="IMG/Logo.png" width="150" height="127.2" alt="logo" />
-
-<!-- figcaption>Tomado de: </figcaption>      -->
-					</figure>	
-						
+<nav>
+		<h1>INTRODUCCION AL DESARROLLO DE SOFTWARE</h1>
+		<!-- CREACION DE LISTA DESPLEGABLE-->
+		<ul class="menu"> 
 		
-					
-
-					</header>
-
-
-						<nav>
-						<h1> LECTURA No. 2</h1>
-<!-- CREACION DE LISTA DESPLEGABLE-->
-<ul class="menu"> 
-
-<li><a href="index" class="menu">INICIO</a> </li>
-
-<li class="desplegable"> <!-- INICIA LISTA-->
-	<a class="btnDesplegable">LECTURA</a>
-<div class="contenidoDesplegable">
-<a href="LECTURA1">LECTURA No. 1</a>
-<a href="LECTURA2">LECTURA No. 2</a>
-<a href="LECTURA3">LECTURA No. 3</a>
-<a href="LECTURA4">LECTURA No. 4</a>
-<a href="LECTURA5">LECTURA No. 5</a>
-	</div>
-		</li> <!-- TERMINA LISTA-->
-
-
-
-<li class="desplegable"> <!-- INICIA LISTA-->
-	<a class="btnDesplegable">MULTIMEDIA</a>
-<div class="contenidoDesplegable">
-<a href="MULTIMEDIA1">MULTIMEDIA No. 1</a>
-<a href="MULTIMEDIA2">MULTIMEDIA No. 2</a>
-
-	</div>
-		</li> <!-- TERMINA LISTA-->
-
-<li class="desplegable"> <!-- INICIA LISTA-->
-	<a class="btnDesplegable">ACTIVIDAD</a>
-<div class="contenidoDesplegable">
-<a href="ACTIVIDAD1">ACTIVIDAD No. 1</a>
-<a href="ACTIVIDAD2">ACTIVIDAD No. 2</a>
-<a href="ACTIVIDAD3">ACTIVIDAD No. 3</a>
-
-	</div>
-		</li> <!-- TERMINA LISTA-->
-
-
-<li><a href="AUTORES">AUTORES</a></li>
-
-
-
-<!-- DENTRO UL ESTA LA VENTANA-->
-
-</ul>
-								</nav>
-
-
-			
-			
-			
-				
-<!-- ENTRE MAYOR h es menor el tamaño del texto-->
-<section class="principal">
-	<div  style="padding:2em;">
-		<h3> ANÁLISIS </h3>
-		<p align="justify">El análisis es una parte fundamental del desarrollo pues nos permite saber que es lo que vamos a desarrollar y por qué se va a desarrollar.
-		Es sumamente necesario establecer los requerimientos del sistema y explicar detalladamente que hace cada requerimiento: lo que se quiere y necesita hacer el software.
-		</p>
-		<H3>Ejemplo:</H3>
-		<p align="justify">Requerimiento: registrar usuario.
-		Descripción: Registrar en el sistema a un nuevo usuario con los siguientes datos obligatorios: nombre, apellido, teléfono, edad y sexo.</p>
-		<ul>
-			<li>
-				<p align="justify">El análisis esclarece las características que tendrá el software.</p>
-			</li>
-			<li>
-				<p align="justify">El tiempo estimado que tardará desarrollarlo (se hace un análisis aparte de la experiencia de los desarrolladores)</p>
-			</li>
-			<li>
-				<p align="justify">El costo de desarrollo</p>
-			</li>
+			<li><a href="index.html" class="menu">INICIO</a> </li>
+		
+			<li class="desplegable"> <!-- INICIA LISTA-->
+				<a class="btnDesplegable">LECTURAS</a>
+				<div class="contenidoDesplegable">
+					<a href="LECTURA1.html">GIT Y GITHUB</a>
+					<a href="LECTURA2.html">DESARROLLO</a>
+					<a href="LECTURA3.html">DISEÑO WEB</a>
+					<a href="LECTURA4.html">METODOLOGIAS</a>
+					<a href="LECTURA5.html">DOCUMENTACION</a>
+				</div>
+			</li> <!-- TERMINA LISTA-->
+		
+			<li class="desplegable"> <!-- INICIA LISTA-->
+				<a class="btnDesplegable">MULTIMEDIA</a>
+				<div class="contenidoDesplegable">
+					<a href="MULTIMEDIA1.html">MULTIMEDIA No. 1</a>
+					<a href="MULTIMEDIA2.html">MULTIMEDIA No. 2</a>
+				</div>
+			</li> <!-- TERMINA LISTA-->
+		
+			<li class="desplegable"> <!-- INICIA LISTA-->
+				<a class="btnDesplegable">ACTIVIDAD</a>
+				<div class="contenidoDesplegable">
+					<a href="ACTIVIDAD1.html">CRUCIGRAMA</a>
+					<a href="ACTIVIDAD2.html">SOPA DE LETRAS</a>
+					<a href="ACTIVIDAD3.html">COMPLETA LA ORACION</a>
+				</div>
+			</li> <!-- TERMINA LISTA-->
+			<li><a href="AUTORES.html">AUTORES</a></li>
+		<!-- DENTRO UL ESTA LA VENTANA-->
 		</ul>
-		<p align="justify">Es muy oportuno ser claro, detallista y minucioso con los requerimientos y estar en conversaciones mientras se desarrolla para que todo tenga un flujo optimo de los recursos y se encamine todo a la finalidad con la cual se empezó la programación del software.</p>
-		<figure>
-		<img src="IMG/curso-de-desarrollo-web.png"/>
-		<figcaption>Fuente: ESDIMA. Recuperado: https://esdima.com/wp-content/uploads/2016/02/curso-de-desarrollo-web.png</figcaption>      
-		</figure>	
-	</div>
-	<div  style="padding:2em;">
-		<h3> PLANEACIÓN </h3>
-		<p align="justify">Antes de que se le de oficialmente el pistoletazo de salida a un proyecto de desarrollo de un sistema de información, es necesario realizar una serie de tareas previas que influirán decisivamente en la finalización con éxito del proyecto. Estas tareas se conocen popularmente como el fuzzy front-end del proyecto al no estar sujetas a plazos. Las tareas iniciales que se realizarán esta fase inicial del proyecto incluyen actividades tales como la determinación del ámbito del proyecto, la realización de un estudio de viabilidad, el análisis de los riesgos asociados al proyecto, una estimación del coste del proyecto, su planificación temporal y la asignación de recursos a las distintas etapas del proyecto.</p>
-		<H3>Delimitación del ámbito del proyecto</H3>
-		<p align="justify">Resulta esencial determinar el ámbito del proyecto al comienzo del mismo. Han de establecerse de antemano qué cuestiones han de resolverse durante la realización del proyecto y cuáles se dejarán fuera. Tan importante es determinar los aspectos abarcados por el proyecto como fijar aquéllos aspectos que no se incluirán en el proyecto. Estos últimos han de indicarse explícitamente. Si es necesario, se puede especificar todo aquello que se posponga hasta una versión posterior del sistema. Si, en algún momento, fuese necesario incluir en el proyecto algún aspecto que no había sido considerado o que ya había sido descartado, es obligatorio reajustar la estimación del coste del proyecto y su planificación temporal.</p>
-		<p align="justify">Como resultado de la delimitación del ámbito del proyecto se obtiene un documento breve, de 1 ó 2 páginas, en el que se describe el problema que nuestro sistema de información pretende resolver. Este documento, denominado a veces mission statement o project charter, debe existir siempre en todo proyecto. En él se recogerá la descripción de más alto nivel de la funcionalidad que tendrá nuestro sistema de información, sus características principales y sus objetivos clave. Obviamente, este documento debe formar parte del contrato que se firme con el cliente en el arranque oficial del proyecto.</p>
-		<p align="justify">Además de ser breve, una buena descripción del proyecto debe superar con éxito la prueba del ascensor. Debe estar escrito en un lenguaje que cualquiera pueda entender, evitando un vocabulario excesivamente técnico. Además, debe recoger todo lo que le contaríamos a un conocido en unos segundos acerca del proyecto en el que estamos trabajando si nos lo cruzáramos por la calle o nos lo encontrásemos en un ascensor.</p>
-	</div>
+		</nav>
+
+<!-- ENTRE MAYOR h es menor el tamaño del texto-->
+
+
+<section class="lecturas">
+	<h2>METODOLOGIAS DE DESARROLLO</h2>	<br>
+	<p>
+			Para los diferentes proyectos de desarrollo existen diferentes metodologías de que son los marcos y normas para obtener resultados acertados y establecen:
+			<br>•	Definir actividades a llevarse a cabo en un Proyecto.
+			<br>•	Unificar criterios en la organización para el desarrollo del proyecto.
+			<br>•	Proporcionar puntos de control y revisión.
+			<br>•	Asegurar la uniformidad y calidad tanto del desarrollo como del sistema en sí.
+			<br>•	Satisfacer las necesidades de los usuarios del sistema.
+			<br>•	Conseguir un mayor nivel de rendimiento y eficiencia del personal 
+			<br>•	Ajustarse a los plazos y costos previstos en la planificación.
+			<br>•	Generar de forma adecuada la documentación asociada a los sistemas.
+			<br>•	Facilitar el mantenimiento posterior de los sistemas.
+			<br><br>
+			<b>Metodologías agiles</b>: son aquellas que permiten adaptar la forma de trabajo a las condiciones del proyecto, consiguiendo flexibilidad e inmediatez en la respuesta para amoldar el proyecto y su desarrollo a las circunstancias específicas del entorno.
+			<br>•	Son muy conocidas el scrum y el modelo kanban <br>
+			<center>
+					<img src="IMG/SCRUM.png" height="400" width="700">
+					<p>Fuente:http://fernandoescolar.github.io/public/uploads/2013/01/scrum-proceso.png</p>
+					<img src="IMG/Kanban.png" height="400" width="700">
+					<p>Fuente:https://metodoss.com/wp-content/uploads/m%C3%A9todo-kanban-e1473760829404.png</p>
+			</center><br>
+			
+			<br><b>Metodologías convencionales</b>: Las metodologías clásicas son aquellas que siguen una secuencia lógica y cada etapa es directamente dependiente de que se culmine la etapa anterior.
+			•	Son muy reconocidas la metodología en cascada y la evolutiva.
+			<center>
+					<img src="IMG/cascada.png" height="400" width="700">
+					<p>Fuente:http://3.bp.blogspot.com/-VCq5TNHp5HY/UWzPqIr2JYI/AAAAAAAAAAU/LJ7QSJnMOCk/s1600/modelo-en-cascada.png</p>
+					<img src="IMG/evolutivo.jpg" height="400" width="700">
+					<p>Fuente:http://2.bp.blogspot.com/_24IGiuy4Xr8/SnRj_3KcBEI/AAAAAAAAAAU/0AYj12UidwI/s400/Modelo_Gral_Evolutivo_Incremental.jpgh</p>
+			</center><br>
+			
+	</p>	
 </section>
 
-<aside>
-	<!-- CREACION DE WIDGETS DE TWITTER-->
-	<div  style="padding:1em;">
-		<script src="http://platform.twitter.com/widgets.js" /></script>
-		<a width="300" height="200" class="twitter-timeline" href="https://twitter.com/UniversidadUNAD">Tweet2</a> 
-	</div>
-</aside>
-
-
-
-
-
-
-<!-- ENTRE MAYOR h es menor el tamaño del texto-->
-
-
-
-
-
 	
-<!-- PIE DE PAGINA-->
+<!-- PIE DE PAGINA--->
 <footer>
-<p>Pagina diseñada por: Oscar Ivan Blanco / Jeison Andres Tabares/ Alejandro Molina. Octubre 2019</p>
+<p>Pagina Elaborada por: Oscar Ivan Blanco / Jeison Andres Tabares/ Alejandro Molina. Octubre 2019</p>
 <h2>VISITAS</h2></p>
 
 
@@ -167,11 +120,11 @@ background: #286af0;
 Colocarlo  contador de visitas
 
 http://www.reliablecounter.com/signup.php?digit=style/plain/1/
--->
+--->
 
 <!-- para hacer en futuro
 <a href="http://www.reliablecounter.com" target="_blank"><img src="https://www.reliablecounter.com/count.php?page=154950154&digit=style/plain/3/&reloads=0" alt="reliablecounter.com" title="reliablecounter.com" border="0"></a><br /><a href="http://https://www.reliablecounter.com/blog" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;">reliablecounter.com</a>
--->
+--->
 
 
 <!--este funciona muy alto
@@ -179,7 +132,8 @@ http://www.reliablecounter.com/signup.php?digit=style/plain/1/
 <script type="text/javascript" src="https://counter8.freecounter.ovh/private/counter.js?c=rm1jphwx1l3k5p3bbs2d6q8eytyyu4me&down=async" async></script>
 <br><a href="https://www.freecounterstat.com">free web counter</a><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img src="https://counter8.freecounter.ovh/private/freecounterstat.php?c=rm1jphwx1l3k5p3bbs2d6q8eytyyu4me" border="0" title="free web counter" alt="free web counter"></a></noscript>
 ¿Como crear un contador web gratis?
--->
+
+--->
 
 <a href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img src="https://counter10.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=3radk6ppcdt1hxeq9jysqukgt6b891q6" border="0" title="contador de visitas" alt="contador de visitas"></a>
 
@@ -190,3 +144,4 @@ http://www.reliablecounter.com/signup.php?digit=style/plain/1/
 
 </html>
 	
+
