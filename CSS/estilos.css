@@ -15,7 +15,11 @@ html,body {
 	text-align: h;
 }
 
-
+.lecturas
+{
+	margin: auto;
+	
+}
 
 
 header {
@@ -42,8 +46,9 @@ section {
     padding-bottom: 60px;
     padding-top:30px;
     text-align: left;
-padding-left: 10px;
-padding-right: none;
+}
+section >p,h1,h2,h3,h4,h5,h6{
+    padding-left: 1%;
 }
 
 
