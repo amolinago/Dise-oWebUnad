@@ -1,42 +1,49 @@
 
 
 
+
 html,body {
     height:auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .contenedor, .principal
 {
-
-		max-width: 80%;
+	max-width: 79%;
 	margin: auto;
-	text-align: center;
-	border-raidus: 0.8em;
+	text-align: h;
 }
+
 
 
 
 header {
         
 
-         float: left; /*permite mover de posicion izquierda, central o derecha*/
+    float: left; /*permite mover de posicion izquierda, central o derecha*/
     display:block; 
-    background: rgb(218, 238, 243);
+    background: rgb(120, 140, 253);
     padding:0.2px 0px;
 	text-align: center;
 
 }
+.logo{
+    margin-left: 18px;
+    margin-right: none;
+}
 
 
 section {
-    width: 80%;/*Permite hacer la divisio de diferentes etiquetas*/
+    width: 100%;/*Permite hacer la divisio de diferentes etiquetas*/
     background: rgb(218, 238, 243);
     float: left;
     overflow: auto;
     padding-bottom: 60px;
     padding-top:30px;
-    text-align: center;
-
+    text-align: left;
+padding-left: 10px;
+padding-right: none;
 }
 
 
@@ -57,24 +64,17 @@ background: #286af0;
 
 
 aside {
+    margin:0px;
+    height:100%;
     float: right; /*Lo lleva a la izquierda*/
 
         border: 0.05px solid white; /*coloca borde*/
 
     width: 19.8%; /*me dice el ancho, si coje espacio de la otra etiqueta se va hacia abajo y parace que fuera un error*/
-
-	
-	height: 129%; /*para dejar color de forma uniforme, si crece mas la pagina entonces es necesario aumentar*/
 	text-align: center;
 	    overflow: auto;
 
-	background:rgb(218, 238, 243);
-
-
-
-
-
-
+	background: #fff;
 }
 	
 
